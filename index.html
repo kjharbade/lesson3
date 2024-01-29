@@ -4,11 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
-</head>
-<body>
-    <h1>Khushboo's component library</h1>
-    <p>I am attending online class and all my projects looks good and consistent</p>
 
+
+<!--<CSS way one:style tag
+
+<style>
+    body{
+        color:red;
+    }
+</style>-->
+<!--third way of doing css:-->
+<link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1 id="lib-header">Khushboo's component library</h1>
+    <!--style="color:red"-->
+    <p class="para">I am attending online class and all my projects looks good and consistent</p>
     <hr >
 
 
@@ -16,19 +28,19 @@
 
     <h1> This is the biggest heading</h1>
     <h2>This is the second biggest</h2>
-    <p>Let me show you the normal text. This is free flowing 
+    <p class="para">Let me show you the normal text. This is free flowing 
     and will wrap at the end like a paragraph</p>
-    <small>This is relatively smaller text.</small>
+    <small class="para">This is relatively smaller text.</small>
     
     <hr>
 
     <h2>@container</h2> 
 
     <h3>fluid container</h3>
-    <div>This is fluid container and it will go till the end of the page.</div>
+    <div class="para">This is fluid container and it will go till the end of the page.</div>
     
     <h3>center container</h3>
-    <div>This is a centered container and it will go till the specified width.</div>
+    <div class="para">This is a centered container and it will go till the specified width.</div>
  
 
     <hr>
@@ -38,6 +50,93 @@
     <a href="/">Primary Link</a>
     <a href="/">Secondary Link</a>
     
+
+    <hr>
+
+    @lists
+    <h3>unordered list</h3>
+
+    <ul>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+
+    </ul>
+
+    <h3>unordered list</h3>
+
+    <ul>
+        <li>Inline Item One</li>
+        <li>Inline Item Two</li>
+        <li>Inline Item Three</li>
+
+    </ul>
+
+
+    <h3> reverse ordered list</h3>
+
+    <ol>
+        <li>milk</li>
+        <li>eggs</li>
+        <li>bread</li>
+    </ol>
+
+    <h2>@nav</h2>
+
+    <nav>
+        <div>iAmBrand</div>
+        <ul>
+            <li>
+                <a href="/">home</a>
+            </li>
+            <li>
+                <a href="/">products</a>
+            </li>
+            <li>
+                <a href="/">about</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+
+
+    <h2>@header</h2>
+
+    <header>
+        <img src="images/hero.svg"/>
+        <h1>heading inside hero</h1>
+    </header>
+
+    <hr>
+    <h2>@section</h2>
+    
+    <section>
+        <h3>@white section</section></h3>
+        <p>This will have white background</p>
+    </section>
+
+    <section>
+        <h3>@off white section</section></h3>
+        <p>This will have grey background</p>
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+    
+    <footer>
+        <div>Some small heading inside footer</div>
+        <ul>
+            <li>socialOne</li>
+            <li>socialTwo</li>
+            <li>socialThree</li>
+        </ul>
+    </footer>
+
+    <!--<div style="height: 30vh;">-->
+    
+    </div>
 
 </body>
 </html>
